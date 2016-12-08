@@ -1,0 +1,6 @@
+framework module Pods_AWSS3Upload {
+  umbrella header "Pods-AWSS3Upload-umbrella.h"
+
+  export *
+  module * { export * }
+}
