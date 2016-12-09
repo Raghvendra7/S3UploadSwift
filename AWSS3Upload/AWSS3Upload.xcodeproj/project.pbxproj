@@ -12,6 +12,7 @@
 		99A721D01DF940DD0059DFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A721CE1DF940DD0059DFBB /* Main.storyboard */; };
 		99A721D21DF940DD0059DFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A721D11DF940DD0059DFBB /* Assets.xcassets */; };
 		99A721D51DF940DD0059DFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99A721D31DF940DD0059DFBB /* LaunchScreen.storyboard */; };
+		99A721DD1DF94F570059DFBB /* AwsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A721DC1DF94F570059DFBB /* AwsManager.swift */; };
 		EC67DBF3417B95D63FAC7F53 /* Pods_AWSS3Upload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7093A8EAEA2797F4694A5 /* Pods_AWSS3Upload.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		99A721D11DF940DD0059DFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99A721D41DF940DD0059DFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99A721D61DF940DD0059DFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99A721DC1DF94F570059DFBB /* AwsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AwsManager.swift; path = ../AwsManager.swift; sourceTree = "<group>"; };
 		A9554F74340A01D18904E869 /* Pods-AWSS3Upload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSS3Upload.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSS3Upload/Pods-AWSS3Upload.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				99A721CA1DF940DD0059DFBB /* AppDelegate.swift */,
+				99A721DC1DF94F570059DFBB /* AwsManager.swift */,
 				99A721CC1DF940DD0059DFBB /* ViewController.swift */,
 				99A721CE1DF940DD0059DFBB /* Main.storyboard */,
 				99A721D11DF940DD0059DFBB /* Assets.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				99A721CD1DF940DD0059DFBB /* ViewController.swift in Sources */,
 				99A721CB1DF940DD0059DFBB /* AppDelegate.swift in Sources */,
+				99A721DD1DF94F570059DFBB /* AwsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

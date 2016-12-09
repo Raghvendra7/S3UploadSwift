@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        sendFile(imageName: "8481-4",image:UIImage(named:"8481-4")!, extention: "jpg", S3BucketName: "bd-bucket-1")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
